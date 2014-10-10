@@ -9,12 +9,46 @@ header h2 {
   margin-left: 40px;
 }
 
-header {
-  color: #fff;
+header nav {
+  background-color: #304f95;
+  padding: 5px 20px 0 50px;
+  vertical-align: middle;
+}
+
+header nav .nav-btn {
+  display: inline-block;
+  float: left;
+  padding: 10px 20px 10px 20px;
+  margin:0;
+  color: #ddd;
+  font-weight: normal;
+
+  display: inline-block;
+  transition: all 0.3s ;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+a:hover.nav-btn {
+  text-decoration: none;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+a:active.nav-btn {
+  text-decoration: none;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.9);
+}
+
+header .gradient {
   background: linear-gradient(#5d8fff, #304f95);
   padding: 50px;
+  margin-bottom: 0;
+}
+
+header {
+  color: #fff;
   margin-bottom: 20px;
   width: "100%";
+  padding-bottom: 0;
 }
 
 article h2 {
